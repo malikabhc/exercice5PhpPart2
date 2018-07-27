@@ -9,12 +9,10 @@
   </head>
   <body>
     <?php
-    if ($gender == 'Homme') {
-      echo 'C\'est un développeur !!!';
-    } elseif ($gender == 'Femme') {
+    if ($gender != 'Homme') {
       echo 'C\'est une développeuse !!!';
     } else {
-      echo 'Qu\'est ce que c\'est ?';
+      echo 'C\'est un développeur !!!';
     }
     ?>
   </body>
